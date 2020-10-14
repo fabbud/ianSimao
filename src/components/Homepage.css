@@ -6,20 +6,52 @@ body {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  margin: 20px 0px;
+  margin: 15px;
+  font-family: 'Economica', sans-serif;
+  color: #ffffff;
+  letter-spacing: 2px;
 }
 
 .capa-livro {
   width: auto;
   height: 600px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-right: 20px;
+  border: #ffffff 1px solid;
 }
 
 .flex-homepage {
+  background-color: #e6595a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px 0px;
+  width: 100%;
+  /* background-image: url('../assets/Prancheta.png'); */
+}
+
+.div-text {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body {
-  background-image: url('../assets/Prancheta.png');
+.desc-livro {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+.compre {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  letter-spacing: 2px;
 }
