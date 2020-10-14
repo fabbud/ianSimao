@@ -1,0 +1,14 @@
+.navbar-links a:hover {
+  color: #e83f36 !important;
+}
+
+.navbar-links a {
+  color: #ffffff !important;
+  font-family: 'Economica', sans-serif !important;
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+#active-key {
+  color: #e83f36 !important;
+}
