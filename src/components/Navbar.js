@@ -19,7 +19,7 @@ function NavBar() {
             eventKey="livro"
             as={Link}
             to="/"
-            id={key === 'desenhos' ? 'active-key' : ''}
+            id={key === 'livro' ? 'active-key' : ''}
           >
             Como Desaparecer Completamente
           </Nav.Link>
@@ -35,7 +35,7 @@ function NavBar() {
             eventKey="escritas"
             as={Link}
             to="/Escritas"
-            id={key === 'Escritas' ? 'active-key' : ''}
+            id={key === 'escritas' ? 'active-key' : ''}
           >
             Escritas
           </Nav.Link>
