@@ -36,7 +36,7 @@ function Footer() {
           <li>
             <a
               className="social-links"
-              href=""
+              href="http://www.olivrodoian.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,7 @@ function Footer() {
           <li>
             <a
               className="social-links"
-              href=""
+              href="http://www.olivrodoian.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ function Footer() {
           <li>
             <a
               className="social-links"
-              href=""
+              href="http://www.olivrodoian.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,7 +75,7 @@ function Footer() {
           <li>
             <a
               className="social-links"
-              href=""
+              href="http://www.olivrodoian.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -88,7 +88,7 @@ function Footer() {
           <li>
             <a
               className="social-links"
-              href=""
+              href="http://www.olivrodoian.com.br"
               target="_blank"
               rel="noopener noreferrer"
             >
