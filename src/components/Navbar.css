@@ -1,14 +1,25 @@
+/* Verde: 41d062
+Amarelo: fff748
+Laranja: ffbd50
+Rosa: ff77cb
+Azul: 2abaff
+Vermelho: EA5959 */
+
 .navbar-links a:hover {
-  color: #e83f36 !important;
+  color: #fff748 !important;
 }
 
 .navbar-links a {
   color: #ffffff !important;
   font-family: 'Economica', sans-serif !important;
-  font-size: 30px;
-  margin: 10px 25px 10px 0px;
+  font-size: 20px;
+  margin-right: 25px;
 }
 
 #active-key {
-  color: #e83f36 !important;
+  color: #fff748 !important;
+}
+
+.navbar-custom {
+  background-color: #2abaff;
 }

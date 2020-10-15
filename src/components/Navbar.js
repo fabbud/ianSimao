@@ -7,7 +7,7 @@ function NavBar() {
   const [key, setKey] = useState('');
 
   return (
-    <Navbar bg="dark" className="navbar-size" expand="md">
+    <Navbar className="navbar-size navbar-custom" expand="md">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
