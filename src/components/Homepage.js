@@ -16,7 +16,9 @@ function Homepage() {
         <p className="desc-livro">
         Términos, recomeços e ressignificações. Oscilando entre o cérebro e o coração, as poesias representam a difícil tentativa de encontrar um equilíbrio. É fácil perceber os altos e baixos, já que o livro funciona como uma linha do tempo. Esse livro tem como objetivo criar uma conexão com todos que tem dificuldade em externar seus sentimentos, o abraço por finalmente serem representadas e o alívio por ver seus sentimentos registrados em uma obra. Afinal, só gostamos de poesias que nós mesmos escreveríamos.
         </p>
-        <button className="compre">Compre do Autor</button>
+        <a href="https://sacola.pagseguro.uol.com.br/cab9a946-fe32-4a69-b1bd-bbb0e65da539" target="_blank" rel="noopener noreferrer">
+          <button className="compre">Compre do Autor</button>
+        </a>
         <p className="texto-plataformas">Também disponível nas lojas:</p>
         <div className="plataformas">
           <a href="https://www.americanas.com.br/produto/2207351334?pfm_carac=como-desaparecer&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page" target="_blank" rel="noopener noreferrer">
@@ -24,6 +26,13 @@ function Homepage() {
             className="americanas"
             src={require('../assets/americanas.png')}
             alt="logo das lojas americanas"
+            />
+          </a>
+          <a href="https://www.editoralux.com.br/loja/produto/como-desaparecer-completamente/" target="_blank" rel="noopener noreferrer">
+            <img
+            className="lux"
+            src={require('../assets/lux.jpg')}
+            alt="logo da editora lux"
             />
           </a>
           <a href="https://www.shoptime.com.br/produto/2207351334/como-desaparecer-completamente?pfm_carac=como%20desaparecer&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page" target="_blank" rel="noopener noreferrer">

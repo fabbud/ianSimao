@@ -9,7 +9,8 @@ body {
   font-family: 'Economica', sans-serif;
   color: #ffffff;
   letter-spacing: 2px;
-  padding-top: 20px;
+  padding: 15px 0px;
+  margin: 0px;
 }
 
 .div-img {
@@ -50,7 +51,7 @@ body {
 .desc-livro {
   color: #ffffff;
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 0px 20px;
   text-align: justify;
 }
 
@@ -59,14 +60,18 @@ body {
   font-size: 25px;
   font-weight: bold;
   background-color: #2abaff;
-  -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
-  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
+  box-shadow: 1px 1px 1px 0px rgba(255, 246, 72, 1);
   border: 0px;
   border-radius: 10px;
   padding: 10px 20px;
   letter-spacing: 2px;
   font-family: 'Economica', sans-serif;
+}
+
+.compre:hover {
+  color: #fff748;
 }
 
 .texto-plataformas {
@@ -98,5 +103,10 @@ body {
 
 .submarino {
   width: 120px;
+  margin: 15px;
+}
+
+.lux {
+  height: 40px;
   margin: 15px;
 }
