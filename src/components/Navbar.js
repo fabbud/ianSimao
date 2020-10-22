@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function NavBar() {
-  const [key, setKey] = useState('');
+  const [key, setKey] = useState('ian');
 
   return (
     <Navbar className="navbar-size navbar-custom" expand="md">
@@ -15,6 +15,15 @@ function NavBar() {
           activeKey={key}
           onSelect={(k) => setKey(k)}
         >
+          <Nav.Link
+            eventKey="ian"
+            as={Link}
+            to="/"
+            id={key === 'ian' ? 'active-key' : ''}
+            className="logo"
+          >
+            IAN<span className="simao">SIMÃO</span>
+          </Nav.Link>
           <Nav.Link
             eventKey="livro"
             as={Link}

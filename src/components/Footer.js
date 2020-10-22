@@ -14,55 +14,14 @@ function Footer() {
               icon={['far', 'envelope']}
             />
           </div>
-          <a className="link" href="mailto:email@livro.com">
-            email@livro.com
+          <a className="link" href="mailto:CDCLivro@gmail.com">
+          CDCLivro@gmail.com
           </a>
         </li>
         <li>
-          <div className="icon-limit">
-            <FontAwesomeIcon
-              className="footer-contact-icons"
-              icon={['fas', 'phone']}
-            />
-          </div>
-          <a className="link" href="tel:+55 21 XXXXX-XXXX">
-            +55 21 XXXXX-XXXX
-          </a>
-        </li>
-      </ul>
-
-      <div className="social-icons-div">
-        <ul className="social-icons">
-          <li>
             <a
               className="social-links"
-              href="http://www.olivrodoian.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                className="facebook-footer"
-                icon={['fab', 'facebook']}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              className="social-links"
-              href="http://www.olivrodoian.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                className="twitter-footer"
-                icon={['fab', 'twitter']}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              className="social-links"
-              href="http://www.olivrodoian.com.br"
+              href="https://www.instagram.com/como.desaparecer/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -70,39 +29,13 @@ function Footer() {
                 className="instagram-footer"
                 icon={['fab', 'instagram']}
               />
+              Siga no Instagram!
             </a>
           </li>
-          <li>
-            <a
-              className="social-links"
-              href="http://www.olivrodoian.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                className="linkedin-footer"
-                icon={['fab', 'linkedin-in']}
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              className="social-links"
-              href="http://www.olivrodoian.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                className="youtube-footer"
-                icon={['fab', 'youtube']}
-              />
-            </a>
-          </li>
-        </ul>
+      </ul>
         <div className="copyright-div">
-          <p className="copyright-text"> &copy; 2020 IAN SIMÃO</p>
+          <p className="copyright-text"> &copy; 2020 IAN<span className="simao">SIMÃO</span></p>
         </div>
-      </div>
     </footer>
   );
 }

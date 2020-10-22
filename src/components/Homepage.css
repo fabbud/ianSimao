@@ -1,6 +1,5 @@
 body {
-  font-family: 'Please write me a song';
-  background-image: url('../assets/Prancheta.png');
+  font-family: 'Open Sans', sans-serif;
 }
 
 .titulo-livro {
@@ -10,47 +9,94 @@ body {
   font-family: 'Economica', sans-serif;
   color: #ffffff;
   letter-spacing: 2px;
-  padding-top: 30px;
+  padding-top: 20px;
+}
+
+.div-img {
+  margin: 20px 5px 0px 0px;
+  height: 500px;
 }
 
 .capa-livro {
-  width: 320px;
-  height: auto;
+  width: auto;
+  height: 500px;
   object-fit: cover;
   overflow: hidden;
-  border: #ffffff 1px solid;
+  background-color: #ea5959;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .flex-homepage {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 15px 0px;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .div-text {
   background-color: #ea5959;
-  width: 40%;
+  width: 500px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
 }
 
 .desc-livro {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 14px;
   padding: 10px 20px;
   text-align: justify;
 }
 
 .compre {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   background-color: #2abaff;
+  -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.6);
   border: 0px;
   border-radius: 10px;
   padding: 10px 20px;
   letter-spacing: 2px;
+  font-family: 'Economica', sans-serif;
+}
+
+.texto-plataformas {
+  font-size: 12px;
+  margin: 30px 0px 0px 0px;
+}
+
+.plataformas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.americanas {
+  height: 30px;
+  margin: 15px;
+}
+
+.shoptime {
+  width: 140px;
+  margin: 15px;
+}
+
+.amazon {
+  width: 110px;
+  margin: 15px;
+}
+
+.submarino {
+  width: 120px;
+  margin: 15px;
 }

@@ -1,16 +1,20 @@
 .site-footer {
   background-color: #2abaff;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
+  box-shadow: 0px -2px 5px 0px rgba(255, 246, 72, 1);
   width: 100%;
   margin: 0px;
 }
 
 .titulo-footer {
   padding-top: 20px;
+  font-size: 12px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
   margin: 30px 0px 15px 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .footer-text {
@@ -20,6 +24,7 @@
   font-size: 17px;
   list-style: none;
   text-decoration: none;
+  font-size: 12px;
 }
 
 .footer-text li a:link,
@@ -29,7 +34,6 @@
   list-style: none;
   color: #fff !important;
   padding-left: 10px;
-  letter-spacing: 2px;
 }
 
 .footer-text li a:hover {
@@ -38,71 +42,32 @@
 
 .footer-contact-icons {
   color: #fff748;
+  font-size: 20px;
 }
 
 .icon-limit {
   width: 25px;
   display: inline-block;
   text-align: center;
-  margin: 0px 0px 5px 30px;
-}
-
-.email-icon {
-  height: 20px;
-  width: 30px;
-}
-
-.phone-icon {
-  height: 25px;
-  width: 25px;
+  margin: 0px -5px 5px 35px;
 }
 
 .copyright-text {
-  margin: 15px 0px 0px 40px;
+  margin: 40px 0px 0px 40px;
   padding: 0px 0px 10px 0px;
-  font-size: 14px;
-  text-align: left;
+  font-size: 12px;
+  text-align: center;
   color: #fff748;
-  letter-spacing: 1px;
 }
 
-.social-icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  text-decoration: none;
-  margin: 20px 0px !important;
+.simao {
+  font-weight: bolder;
 }
 
-.social-icons li {
-  margin-right: 15px;
-}
-
-.facebook-footer,
-.twitter-footer,
-.instagram-footer,
-.linkedin-footer,
-.medium-footer,
-.soundcloud-footer,
-.meetup-footer,
-.flickr-footer,
-.youtube-footer {
-  color: white;
-  font-size: 25px;
-}
-
-.facebook-footer:hover,
-.twitter-footer:hover,
-.instagram-footer:hover,
-.linkedin-footer:hover,
-.medium-footer:hover,
-.soundcloud-footer:hover,
-.meetup-footer:hover,
-.flickr-footer:hover,
-.youtube-footer:hover {
+.instagram-footer {
   color: #fff748;
+  font-size: 20px;
+  margin: 0px 10px 0px 28px;
 }
 
 @media (max-width: 768px) {
@@ -134,15 +99,7 @@
     margin-top: 20px;
   }
 
-  .facebook-footer,
-  .twitter-footer,
-  .instagram-footer,
-  .linkedin-footer,
-  .medium-footer,
-  .soundcloud-footer,
-  .meetup-footer,
-  .flickr-footer,
-  .youtube-footer {
+  .instagram-footer {
     font-size: 20px;
   }
 
@@ -170,11 +127,7 @@
     margin-top: 20px;
   }
 
-  .facebook-footer,
-  .twitter-footer,
-  .instagram-footer,
-  .linkedin-footer,
-  .youtube-footer {
+  .instagram-footer {
     font-size: 20px;
   }
 
