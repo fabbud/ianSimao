@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.css';
 
 function NavBar() {
@@ -16,14 +17,22 @@ function NavBar() {
           onSelect={(k) => setKey(k)}
         >
           <Nav.Link
-            eventKey="ian"
             as={Link}
             to="/"
-            id={key === 'ian' ? 'active-key' : ''}
-            className="logo"
+            id="logo"
           >
             IAN<span className="simao">SIMÃO</span>
           </Nav.Link>
+          <Navbar.Brand 
+            href="https://www.instagram.com/como.desaparecer/"
+            target="_blank"
+            rel="noopener noreferrer"  
+          >
+            <FontAwesomeIcon
+                className="instagram-navbar"
+                icon={['fab', 'instagram']}
+            />
+          </Navbar.Brand>
           <Nav.Link
             eventKey="livro"
             as={Link}

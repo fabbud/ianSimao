@@ -30,3 +30,14 @@ Vermelho: EA5959 */
 .simao {
   font-weight: bolder;
 }
+
+#logo {
+  margin-right: 0px;
+  color: #fff748 !important;
+}
+
+.instagram-navbar {
+  color: #fff748 !important;
+  font-size: 25px;
+  margin-top: 5px;
+}
