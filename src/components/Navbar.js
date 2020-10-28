@@ -32,6 +32,11 @@ function NavBar() {
                 className="instagram-navbar"
                 icon={['fab', 'instagram']}
             />
+            <img
+              className="insta-navbar"
+              src={require('../assets/insta.png')}
+              alt="instagram logo"
+            />
           </Navbar.Brand>
           <Nav.Link
             eventKey="livro"
@@ -65,6 +70,14 @@ function NavBar() {
           >
             Bio
           </Nav.Link>
+          {/* <Nav.Link
+            eventKey="posts"
+            as={Link}
+            to="/publicacoes"
+            id={key === 'posts' ? 'active-key' : ''}
+          >
+            Publicações
+          </Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

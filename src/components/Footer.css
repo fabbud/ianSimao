@@ -70,7 +70,7 @@
   margin: 0px 10px 0px 28px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .footer-text {
     text-align: center;
     font-size: 15px;
@@ -138,4 +138,4 @@
   .copyright-text {
     font-size: 10px;
   }
-}
+} */

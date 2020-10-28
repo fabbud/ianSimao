@@ -7,6 +7,7 @@ import Homepage from './components/Homepage';
 import Desenhos from './components/Desenhos';
 import Bio from './components/Bio';
 import Escritas from './components/Escritas';
+import Posts from './components/Posts';
 import Footer from './components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/desenhos" component={Desenhos} />
           <Route exact path="/bio" component={Bio} />
           <Route exact path="/escritas" component={Escritas} />
+          <Route exact path="/publicacoes" component={Posts} />
         </Switch>
         <Footer />
       </BrowserRouter>
